@@ -224,21 +224,6 @@ NASA MUR Sea Surface Temperature v4.2:
 
 https://podaac.jpl.nasa.gov/dataset/MUR25-JPL-L4-GLOB-v04.2
 
-## Project
-
-**OceanTwin AI**  
-Department of Computer Science  
-Chinmaya Vishwavidyapeeth Deemed to be University  
-Ernakulam-686667, Kerala, India
-
-**Authors**
-
-- Gummalla Sasirekha
-- Mohammed Syed Marjuk
-- Anupama Jims
-
-**Corresponding Author:** anupama.jims@cvv.ac.in
-
 ---
 
 This project is an academic prototype demonstrating a digital-twin approach for coastal ecosystem monitoring, prediction, and decision support.

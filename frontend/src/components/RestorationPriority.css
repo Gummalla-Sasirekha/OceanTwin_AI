@@ -1,0 +1,392 @@
+/* =========================================================
+   RESTORATION PRIORITY & DECISION SUPPORT
+========================================================= */
+
+.restoration-priority-section {
+  width: 100%;
+  padding: 70px 8%;
+  box-sizing: border-box;
+  background: #f7fbfd;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.restoration-priority-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.restoration-priority-header h2 {
+  margin: 0 0 12px;
+  color: #123b52;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.restoration-priority-header p {
+  margin: 0 0 18px;
+  color: #54758a;
+  font-size: 1rem;
+}
+
+.restoration-priority-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background: #fff4e8;
+  color: #d97706;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   LOCATION / DATE
+========================================================= */
+
+.restoration-priority-location {
+  max-width: 1100px;
+  min-height: 54px;
+
+  margin: 0 auto 22px;
+  padding: 0 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  background: #f1f8fc;
+  border: 1px solid #dcecf4;
+  border-radius: 12px;
+
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.restoration-location-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.restoration-location-item strong {
+  color: #123b52;
+  font-weight: 700;
+}
+
+.restoration-divider {
+  color: #9bb4c1;
+}
+
+
+/* =========================================================
+   OVERALL RESTORATION PRIORITY
+========================================================= */
+
+.restoration-overall-card {
+  max-width: 1100px;
+  min-height: 150px;
+
+  margin: 0 auto 24px;
+  padding: 28px 35px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  background: #ffffff;
+  border: 1px solid #e5eef2;
+  border-radius: 18px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+.restoration-overall-icon {
+  width: 64px;
+  height: 64px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #fff4e8;
+  color: #d97706;
+}
+
+.restoration-overall-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.restoration-overall-label {
+  color: #54758a;
+  font-size: 1rem;
+}
+
+.restoration-overall-value {
+  color: #d97706;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.restoration-overall-content small {
+  color: #78909c;
+  font-size: 0.85rem;
+}
+
+
+/* =========================================================
+   PRIORITY GRID
+========================================================= */
+
+.restoration-priority-grid {
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.restoration-priority-card {
+  min-height: 160px;
+
+  padding: 22px 16px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+  border: 1px solid #e5eef2;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.restoration-priority-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================================
+   PRIORITY ICONS
+========================================================= */
+
+.restoration-priority-icon {
+  width: 48px;
+  height: 48px;
+
+  margin-bottom: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.restoration-icon-green {
+  background: #edf8f0;
+  color: #159447;
+}
+
+.restoration-icon-orange {
+  background: #fff4e8;
+  color: #d97706;
+}
+
+.restoration-icon-blue {
+  background: #eef7fa;
+  color: #1976a8;
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.restoration-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 6px;
+}
+
+.restoration-card-label {
+  color: #607d8b;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.restoration-card-value {
+  color: #d97706;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   DECISION SUPPORT STATUS
+========================================================= */
+
+.restoration-status {
+  max-width: 1100px;
+  min-height: 105px;
+
+  margin: 28px auto 0;
+  padding: 20px 30px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  background: #fff8ee;
+  border: 1px solid #f5dfbd;
+  border-radius: 16px;
+}
+
+.restoration-status-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #e59a2f;
+  color: #ffffff;
+}
+
+.restoration-status-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.restoration-status-label {
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.restoration-status-value {
+  color: #d97706;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   LOADING / ERROR
+========================================================= */
+
+.restoration-priority-message {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  padding: 50px 20px;
+
+  text-align: center;
+
+  color: #607d8b;
+  font-size: 1rem;
+}
+
+.restoration-priority-error {
+  color: #c62828;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .restoration-priority-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .restoration-priority-section {
+    padding: 50px 5%;
+  }
+
+  .restoration-priority-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .restoration-priority-location {
+    flex-direction: column;
+    gap: 6px;
+    padding: 15px;
+  }
+
+  .restoration-divider {
+    display: none;
+  }
+
+  .restoration-overall-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .restoration-overall-content {
+    align-items: center;
+  }
+
+  .restoration-priority-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .restoration-priority-card {
+    min-height: 150px;
+  }
+
+  .restoration-status {
+    padding: 20px;
+  }
+
+}

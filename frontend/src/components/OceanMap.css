@@ -1,0 +1,150 @@
+.map-section {
+  padding: 80px 7%;
+  background: #f4fbff;
+}
+
+.map-heading {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.map-tag {
+  margin: 0 0 10px;
+  color: #0785ad;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.map-heading h2 {
+  margin: 0 0 12px;
+  font-size: 38px;
+  color: #123047;
+}
+
+.map-heading p:last-child {
+  margin: 0;
+  color: #607786;
+  line-height: 1.6;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #cfe6ef;
+  box-shadow: 0 12px 35px rgba(21, 92, 117, 0.1);
+}
+
+.ocean-map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-popup h3 {
+  margin-top: 0;
+  color: #087ea4;
+}
+
+.map-popup p {
+  margin: 7px 0;
+  color: #45616f;
+}
+
+@media (max-width: 600px) {
+  .map-section {
+    padding: 55px 5%;
+  }
+
+  .map-heading h2 {
+    font-size: 30px;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+}
+
+/* =========================================================
+   DIGITAL TWIN MAP POPUP
+========================================================= */
+
+.digital-twin-map-popup {
+  min-width: 240px;
+  font-family: Arial, sans-serif;
+}
+
+.digital-twin-map-popup h3 {
+  margin: 0 0 12px;
+  color: #123b52;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.digital-twin-map-popup p {
+  margin: 7px 0;
+  color: #54758a;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.digital-twin-map-popup p strong {
+  color: #123b52;
+}
+
+.digital-twin-map-popup hr {
+  margin: 12px 0;
+  border: 0;
+  border-top: 1px solid #dcecf4;
+}
+
+/* =========================================================
+   DIGITAL TWIN POPUP - COMPACT CONFERENCE VIEW
+========================================================= */
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.map-popup {
+  min-width: 220px;
+}
+
+.map-popup h3 {
+  margin: 0 0 10px;
+  color: #087ea4;
+  font-size: 1rem;
+}
+
+.map-popup p {
+  margin: 6px 0;
+  color: #456575;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.map-popup p strong {
+  color: #294d5e;
+}
+
+.map-popup hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #d8e7ee;
+}
+
+.leaflet-popup-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.leaflet-popup-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #b7ccd6;
+}

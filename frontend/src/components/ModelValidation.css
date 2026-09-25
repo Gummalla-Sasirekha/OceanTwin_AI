@@ -1,0 +1,368 @@
+/* =========================================================
+   MODEL VALIDATION SECTION
+========================================================= */
+
+.model-validation-section {
+  width: 100%;
+  padding: 70px 8%;
+  box-sizing: border-box;
+  background: #f7fbfd;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.model-validation-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.model-validation-tag {
+  margin: 0 0 10px;
+
+  color: #0785ad;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.model-validation-header h2 {
+  margin: 0 0 12px;
+
+  color: #123b52;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.model-validation-header p {
+  max-width: 700px;
+
+  margin: 0 auto 18px;
+
+  color: #54758a;
+
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.model-validation-badge {
+  display: inline-block;
+
+  padding: 7px 16px;
+
+  border-radius: 20px;
+
+  background: #e8f3fb;
+  color: #0875a3;
+
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   DATASET INFORMATION
+========================================================= */
+
+.model-validation-info {
+  max-width: 1100px;
+
+  margin: 0 auto 24px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 16px;
+}
+
+.model-validation-info > div {
+  min-height: 90px;
+
+  padding: 18px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #f1f8fc;
+
+  border: 1px solid #dcecf4;
+
+  border-radius: 12px;
+}
+
+.model-validation-info span {
+  margin-bottom: 6px;
+
+  color: #607d8b;
+
+  font-size: 0.82rem;
+}
+
+.model-validation-info strong {
+  color: #123b52;
+
+  font-size: 0.92rem;
+}
+
+
+/* =========================================================
+   METRICS
+========================================================= */
+
+.model-validation-grid {
+  max-width: 1100px;
+
+  margin: 0 auto 24px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.validation-card {
+  min-height: 190px;
+
+  padding: 25px 20px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e5eef2;
+
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.validation-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.validation-card-label {
+  margin-bottom: 8px;
+
+  color: #54758a;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.validation-value {
+  color: #087ea4;
+
+  font-size: 2rem;
+  font-weight: 700;
+
+  line-height: 1.1;
+}
+
+.validation-card > span {
+  margin-top: 4px;
+
+  color: #607d8b;
+
+  font-size: 0.9rem;
+}
+
+.validation-card small {
+  margin-top: 12px;
+
+  color: #78909c;
+
+  font-size: 0.78rem;
+}
+
+
+/* =========================================================
+   VALIDATION RESULT
+========================================================= */
+
+.model-validation-result {
+  max-width: 1100px;
+
+  margin: 0 auto 20px;
+
+  min-height: 90px;
+
+  padding: 20px 25px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+
+  background: #edf8f0;
+
+  border: 1px solid #d3ebda;
+
+  border-radius: 14px;
+}
+
+.validation-result-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #1eae5a;
+
+  color: #ffffff;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.model-validation-result > div:last-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.model-validation-result span {
+  color: #54758a;
+
+  font-size: 0.9rem;
+}
+
+.model-validation-result strong {
+  color: #159447;
+
+  font-size: 1.05rem;
+}
+
+.model-validation-result small {
+  color: #78909c;
+
+  font-size: 0.8rem;
+}
+
+
+/* =========================================================
+   SCIENTIFIC NOTE
+========================================================= */
+
+.model-validation-note {
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 18px 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  gap: 6px;
+
+  align-items: flex-start;
+
+  background: #fffaf2;
+
+  border: 1px solid #f1dfbd;
+
+  border-radius: 12px;
+
+  color: #6b7280;
+
+  font-size: 0.82rem;
+
+  line-height: 1.55;
+}
+
+.model-validation-note strong {
+  flex-shrink: 0;
+
+  color: #8a5a00;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .model-validation-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .model-validation-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .model-validation-section {
+    padding: 50px 5%;
+  }
+
+  .model-validation-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .model-validation-info {
+    grid-template-columns: 1fr;
+  }
+
+  .model-validation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .validation-card {
+    min-height: 160px;
+  }
+
+  .model-validation-result {
+    align-items: flex-start;
+  }
+
+  .model-validation-note {
+    flex-direction: column;
+  }
+
+}

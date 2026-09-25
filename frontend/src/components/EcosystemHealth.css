@@ -1,0 +1,439 @@
+/* =========================================================
+   ECOSYSTEM HEALTH ASSESSMENT
+========================================================= */
+
+.ecosystem-health-section {
+  width: 100%;
+  padding: 70px 8%;
+  box-sizing: border-box;
+  background: #f7fbfd;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.ecosystem-health-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ecosystem-health-header h2 {
+  margin: 0 0 12px;
+  color: #123b52;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.ecosystem-health-header p {
+  margin: 0 0 18px;
+  color: #54758a;
+  font-size: 1rem;
+}
+
+.ecosystem-health-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   LOCATION / DATE
+========================================================= */
+
+.ecosystem-health-location {
+  max-width: 1100px;
+  min-height: 54px;
+
+  margin: 0 auto 22px;
+  padding: 0 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  background: #f1f8fc;
+  border: 1px solid #dcecf4;
+  border-radius: 12px;
+
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.ecosystem-location-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ecosystem-location-item strong {
+  color: #123b52;
+  font-weight: 700;
+}
+
+.ecosystem-divider {
+  color: #9bb4c1;
+}
+
+
+/* =========================================================
+   MAIN HEALTH SCORE
+========================================================= */
+
+.ecosystem-health-score-card {
+  max-width: 1100px;
+  min-height: 190px;
+
+  margin: 0 auto 24px;
+  padding: 28px 35px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+
+  background: #ffffff;
+  border: 1px solid #e5eef2;
+  border-radius: 18px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+
+/* =========================================================
+   SCORE CIRCLE
+========================================================= */
+
+.ecosystem-score-circle {
+  width: 135px;
+  height: 135px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #edf8f0;
+  border: 8px solid #20a85a;
+
+  box-sizing: border-box;
+}
+
+.ecosystem-score-value {
+  color: #159447;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ecosystem-score-label {
+  margin-top: 5px;
+  color: #607d8b;
+  font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   SCORE CONTENT
+========================================================= */
+
+.ecosystem-score-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ecosystem-score-title {
+  color: #54758a;
+  font-size: 1rem;
+}
+
+.ecosystem-score-status {
+  color: #159447;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.ecosystem-score-description {
+  color: #78909c;
+  font-size: 0.85rem;
+}
+
+
+/* =========================================================
+   COMPONENT SCORE GRID
+========================================================= */
+
+.ecosystem-components-grid {
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.ecosystem-component-card {
+  min-height: 160px;
+
+  padding: 22px 14px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+  border: 1px solid #e5eef2;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.ecosystem-component-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================================
+   COMPONENT ICONS
+========================================================= */
+
+.ecosystem-component-icon {
+  width: 48px;
+  height: 48px;
+
+  margin-bottom: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.ecosystem-icon-blue {
+  background: #eef7fa;
+  color: #1976a8;
+}
+
+.ecosystem-icon-green {
+  background: #edf8f0;
+  color: #159447;
+}
+
+.ecosystem-icon-orange {
+  background: #fff4e8;
+  color: #d97706;
+}
+
+
+/* =========================================================
+   COMPONENT CONTENT
+========================================================= */
+
+.ecosystem-component-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.ecosystem-component-label {
+  color: #607d8b;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.ecosystem-component-value {
+  color: #123b52;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ecosystem-component-content small {
+  color: #78909c;
+  font-size: 0.75rem;
+}
+
+
+/* =========================================================
+   OVERALL HEALTH STATUS
+========================================================= */
+
+.ecosystem-health-overall {
+  max-width: 1100px;
+  min-height: 105px;
+
+  margin: 28px auto 0;
+  padding: 20px 30px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  background: #eef9f1;
+  border: 1px solid #d8efdd;
+  border-radius: 16px;
+}
+
+.ecosystem-overall-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #20a85a;
+  color: #ffffff;
+}
+
+.ecosystem-overall-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ecosystem-overall-label {
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.ecosystem-overall-value {
+  color: #159447;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   LOADING / ERROR
+========================================================= */
+
+.ecosystem-health-message {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  padding: 50px 20px;
+
+  text-align: center;
+
+  color: #607d8b;
+  font-size: 1rem;
+}
+
+.ecosystem-health-error {
+  color: #c62828;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .ecosystem-components-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .ecosystem-health-section {
+    padding: 60px 6%;
+  }
+
+  .ecosystem-health-score-card {
+    gap: 25px;
+  }
+
+  .ecosystem-components-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .ecosystem-health-section {
+    padding: 50px 5%;
+  }
+
+  .ecosystem-health-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .ecosystem-health-location {
+    flex-direction: column;
+    gap: 6px;
+    padding: 15px;
+  }
+
+  .ecosystem-divider {
+    display: none;
+  }
+
+  .ecosystem-health-score-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .ecosystem-score-content {
+    align-items: center;
+  }
+
+  .ecosystem-components-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ecosystem-component-card {
+    min-height: 150px;
+  }
+
+  .ecosystem-health-overall {
+    padding: 20px;
+  }
+
+}

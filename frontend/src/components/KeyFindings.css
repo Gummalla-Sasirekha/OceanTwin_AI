@@ -1,0 +1,238 @@
+/* =========================================================
+   KEY FINDINGS
+========================================================= */
+
+.key-findings-section {
+  width: 100%;
+  padding: 70px 8%;
+  box-sizing: border-box;
+  background: #f7fbfd;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.key-findings-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.key-findings-tag {
+  margin: 0 0 10px;
+
+  color: #0785ad;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.key-findings-header h2 {
+  margin: 0 0 12px;
+
+  color: #123b52;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.key-findings-header p {
+  margin: 0;
+
+  color: #54758a;
+
+  font-size: 1rem;
+}
+
+
+/* =========================================================
+   FINDINGS GRID
+========================================================= */
+
+.key-findings-grid {
+  max-width: 1100px;
+
+  margin: 0 auto 25px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   FINDING CARD
+========================================================= */
+
+.finding-card {
+  min-height: 245px;
+
+  padding: 25px 20px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e5eef2;
+
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.finding-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.finding-icon {
+  width: 52px;
+  height: 52px;
+
+  margin-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eef7fa;
+
+  font-size: 1.5rem;
+}
+
+
+/* =========================================================
+   CARD TEXT
+========================================================= */
+
+.finding-card h3 {
+  margin: 0 0 10px;
+
+  color: #123b52;
+
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.finding-card p {
+  margin: 0 0 15px;
+
+  color: #607d8b;
+
+  font-size: 0.84rem;
+
+  line-height: 1.55;
+}
+
+.finding-card strong {
+  margin-top: auto;
+
+  color: #087ea4;
+
+  font-size: 0.95rem;
+}
+
+
+/* =========================================================
+   SCIENTIFIC NOTE
+========================================================= */
+
+.key-findings-note {
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 18px 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 7px;
+
+  background: #fffaf2;
+
+  border: 1px solid #f1dfbd;
+
+  border-radius: 12px;
+
+  color: #6b7280;
+
+  font-size: 0.82rem;
+
+  line-height: 1.55;
+}
+
+.key-findings-note strong {
+  flex-shrink: 0;
+
+  color: #8a5a00;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .key-findings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .key-findings-section {
+    padding: 50px 5%;
+  }
+
+  .key-findings-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .key-findings-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .finding-card {
+    min-height: 220px;
+  }
+
+  .key-findings-note {
+    flex-direction: column;
+  }
+
+}

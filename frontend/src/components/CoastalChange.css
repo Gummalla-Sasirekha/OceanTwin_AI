@@ -1,0 +1,334 @@
+/* =========================================================
+   COASTAL CHANGE ANALYSIS
+========================================================= */
+
+.coastal-change-section {
+  width: 100%;
+  padding: 70px 8%;
+  box-sizing: border-box;
+  background: #f7fbfd;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.coastal-change-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.coastal-change-header h2 {
+  margin: 0 0 12px;
+  color: #123b52;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.coastal-change-header p {
+  margin: 0 0 18px;
+  color: #54758a;
+  font-size: 1rem;
+}
+
+.coastal-change-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   LOCATION / DATE
+========================================================= */
+
+.coastal-change-location {
+  max-width: 1100px;
+  min-height: 54px;
+
+  margin: 0 auto 22px;
+  padding: 0 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  background: #f1f8fc;
+  border: 1px solid #dcecf4;
+  border-radius: 12px;
+
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.coastal-location-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.coastal-location-item strong {
+  color: #123b52;
+  font-weight: 700;
+}
+
+.coastal-divider {
+  color: #9bb4c1;
+}
+
+
+/* =========================================================
+   COASTAL CHANGE CARDS
+========================================================= */
+
+.coastal-change-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.coastal-change-card {
+  min-height: 165px;
+  padding: 25px 20px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+  border: 1px solid #e5eef2;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.coastal-change-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================================
+   ICONS
+========================================================= */
+
+.coastal-change-icon {
+  width: 50px;
+  height: 50px;
+
+  margin-bottom: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.coastal-icon-blue {
+  background: #eef7fa;
+  color: #1976a8;
+}
+
+.coastal-icon-orange {
+  background: #fff4e8;
+  color: #d97706;
+}
+
+.coastal-icon-green {
+  background: #edf8f0;
+  color: #159447;
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.coastal-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}
+
+.coastal-card-label {
+  display: block;
+
+  color: #607d8b;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.coastal-card-value {
+  display: block;
+
+  color: #123b52;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.coastal-good {
+  color: #159447;
+}
+
+.coastal-card-content small {
+  color: #78909c;
+  font-size: 0.8rem;
+}
+
+
+/* =========================================================
+   OVERALL COASTAL CONDITION
+========================================================= */
+
+.coastal-overall {
+  max-width: 1100px;
+  min-height: 105px;
+
+  margin: 28px auto 0;
+  padding: 20px 30px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  background: #eef9f1;
+  border: 1px solid #d8efdd;
+  border-radius: 16px;
+}
+
+.coastal-overall-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #20a85a;
+  color: #ffffff;
+}
+
+.coastal-overall-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.coastal-overall-label {
+  color: #54758a;
+  font-size: 0.95rem;
+}
+
+.coastal-overall-value {
+  color: #159447;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   LOADING / ERROR
+========================================================= */
+
+.coastal-change-message {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  padding: 50px 20px;
+
+  text-align: center;
+
+  color: #607d8b;
+  font-size: 1rem;
+}
+
+.coastal-change-error {
+  color: #c62828;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .coastal-change-section {
+    padding: 60px 6%;
+  }
+
+  .coastal-change-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .coastal-change-section {
+    padding: 50px 5%;
+  }
+
+  .coastal-change-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .coastal-change-location {
+    flex-direction: column;
+    gap: 6px;
+    padding: 15px;
+  }
+
+  .coastal-divider {
+    display: none;
+  }
+
+  .coastal-change-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .coastal-change-card {
+    min-height: 155px;
+  }
+
+  .coastal-overall {
+    padding: 20px;
+  }
+
+}
